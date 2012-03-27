@@ -22,6 +22,7 @@
 		37797C2615213E34001697C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37797C0115213E33001697C2 /* Foundation.framework */; };
 		37797C2E15213E34001697C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37797C2C15213E34001697C2 /* InfoPlist.strings */; };
 		37797C3115213E34001697C2 /* SITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37797C3015213E34001697C2 /* SITests.m */; };
+		37797C3C15213E5F001697C2 /* units.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37797C3A15213E5F001697C2 /* units.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,24 +40,25 @@
 		37797BFF15213E33001697C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37797C0115213E33001697C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37797C0315213E33001697C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		37797C0715213E33001697C2 /* SI-Info.plist */ = {isa = PBXFileReference; path = "SI-Info.plist"; sourceTree = "<group>"; };
+		37797C0715213E33001697C2 /* SI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SI-Info.plist"; sourceTree = "<group>"; };
 		37797C0915213E33001697C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37797C0B15213E33001697C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37797C0D15213E33001697C2 /* SI-Prefix.pch */ = {isa = PBXFileReference; path = "SI-Prefix.pch"; sourceTree = "<group>"; };
-		37797C0E15213E33001697C2 /* SIAppDelegate.h */ = {isa = PBXFileReference; path = SIAppDelegate.h; sourceTree = "<group>"; };
+		37797C0D15213E33001697C2 /* SI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SI-Prefix.pch"; sourceTree = "<group>"; };
+		37797C0E15213E33001697C2 /* SIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIAppDelegate.h; sourceTree = "<group>"; };
 		37797C0F15213E34001697C2 /* SIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIAppDelegate.m; sourceTree = "<group>"; };
-		37797C1115213E34001697C2 /* SIMainViewController.h */ = {isa = PBXFileReference; path = SIMainViewController.h; sourceTree = "<group>"; };
+		37797C1115213E34001697C2 /* SIMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIMainViewController.h; sourceTree = "<group>"; };
 		37797C1215213E34001697C2 /* SIMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMainViewController.m; sourceTree = "<group>"; };
-		37797C1415213E34001697C2 /* SIFlipsideViewController.h */ = {isa = PBXFileReference; path = SIFlipsideViewController.h; sourceTree = "<group>"; };
+		37797C1415213E34001697C2 /* SIFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIFlipsideViewController.h; sourceTree = "<group>"; };
 		37797C1515213E34001697C2 /* SIFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIFlipsideViewController.m; sourceTree = "<group>"; };
 		37797C1815213E34001697C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SIMainViewController.xib; sourceTree = "<group>"; };
 		37797C1B15213E34001697C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SIFlipsideViewController.xib; sourceTree = "<group>"; };
 		37797C2215213E34001697C2 /* SITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37797C2315213E34001697C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		37797C2B15213E34001697C2 /* SITests-Info.plist */ = {isa = PBXFileReference; path = "SITests-Info.plist"; sourceTree = "<group>"; };
+		37797C2B15213E34001697C2 /* SITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SITests-Info.plist"; sourceTree = "<group>"; };
 		37797C2D15213E34001697C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		37797C2F15213E34001697C2 /* SITests.h */ = {isa = PBXFileReference; path = SITests.h; sourceTree = "<group>"; };
+		37797C2F15213E34001697C2 /* SITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SITests.h; sourceTree = "<group>"; };
 		37797C3015213E34001697C2 /* SITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SITests.m; sourceTree = "<group>"; };
+		37797C3B15213E5F001697C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/units.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				37797C0815213E33001697C2 /* InfoPlist.strings */,
 				37797C0B15213E33001697C2 /* main.m */,
 				37797C0D15213E33001697C2 /* SI-Prefix.pch */,
+				37797C3A15213E5F001697C2 /* units.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				37797C0A15213E33001697C2 /* InfoPlist.strings in Resources */,
 				37797C1915213E34001697C2 /* SIMainViewController.xib in Resources */,
 				37797C1C15213E34001697C2 /* SIFlipsideViewController.xib in Resources */,
+				37797C3C15213E5F001697C2 /* units.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +327,14 @@
 				37797C2D15213E34001697C2 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37797C3A15213E5F001697C2 /* units.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37797C3B15213E5F001697C2 /* en */,
+			);
+			name = units.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

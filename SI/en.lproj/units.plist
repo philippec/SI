@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item 1</key>
+	<dict>
+		<key>power</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>déca</string>
+		<key>symbol</key>
+		<string>da</string>
+	</dict>
+	<key>item 2</key>
+	<dict>
+		<key>power</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>hecto</string>
+		<key>symbol</key>
+		<string>h</string>
+	</dict>
+	<key>item 3</key>
+	<dict>
+		<key>power</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>kilo</string>
+		<key>symbol</key>
+		<string>k</string>
+	</dict>
+	<key>item 4</key>
+	<dict>
+		<key>power</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>mega</string>
+		<key>symbol</key>
+		<string>M</string>
+	</dict>
+	<key>item 5</key>
+	<dict>
+		<key>power</key>
+		<integer>9</integer>
+		<key>name</key>
+		<string>giga</string>
+		<key>symbol</key>
+		<string>G</string>
+	</dict>
+</dict>
+</plist>
