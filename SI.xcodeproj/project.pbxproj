@@ -23,6 +23,8 @@
 		37797C2E15213E34001697C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37797C2C15213E34001697C2 /* InfoPlist.strings */; };
 		37797C3115213E34001697C2 /* SITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37797C3015213E34001697C2 /* SITests.m */; };
 		37797C3C15213E5F001697C2 /* units.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37797C3A15213E5F001697C2 /* units.plist */; };
+		37797C3F1521405E001697C2 /* SIUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37797C3E1521405E001697C2 /* SIUnit.m */; };
+		37797C401521405E001697C2 /* SIUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 37797C3E1521405E001697C2 /* SIUnit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		37797C2F15213E34001697C2 /* SITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SITests.h; sourceTree = "<group>"; };
 		37797C3015213E34001697C2 /* SITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SITests.m; sourceTree = "<group>"; };
 		37797C3B15213E5F001697C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/units.plist; sourceTree = "<group>"; };
+		37797C3D1521405E001697C2 /* SIUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIUnit.h; sourceTree = "<group>"; };
+		37797C3E1521405E001697C2 /* SIUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIUnit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 				37797C1715213E34001697C2 /* SIMainViewController.xib */,
 				37797C1A15213E34001697C2 /* SIFlipsideViewController.xib */,
 				37797C0615213E33001697C2 /* Supporting Files */,
+				37797C3D1521405E001697C2 /* SIUnit.h */,
+				37797C3E1521405E001697C2 /* SIUnit.m */,
 			);
 			path = SI;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 				37797C1015213E34001697C2 /* SIAppDelegate.m in Sources */,
 				37797C1315213E34001697C2 /* SIMainViewController.m in Sources */,
 				37797C1615213E34001697C2 /* SIFlipsideViewController.m in Sources */,
+				37797C3F1521405E001697C2 /* SIUnit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37797C3115213E34001697C2 /* SITests.m in Sources */,
+				37797C401521405E001697C2 /* SIUnit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

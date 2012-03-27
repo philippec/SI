@@ -7,18 +7,22 @@
 //
 
 #import "SIMainViewController.h"
+#import "SIUnit.h"
 
 @interface SIMainViewController ()
+
+@property (nonatomic, retain) SIUnit *unit;
 
 @end
 
 @implementation SIMainViewController
 
+@synthesize unit = _unit;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.unit = [[SIUnit alloc] init];
 }
 
 - (void)viewDidUnload
