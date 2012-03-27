@@ -10,6 +10,12 @@
 
 @interface SIMainViewController : UIViewController <SIFlipsideViewControllerDelegate>
 
+@property (strong, nonatomic) IBOutlet UILabel *power;
+@property (strong, nonatomic) IBOutlet UILabel *ten;
+@property (strong, nonatomic) IBOutlet UILabel *name;
+@property (strong, nonatomic) IBOutlet UILabel *symbol;
+
+
 - (IBAction)showInfo:(id)sender;
 
 @end
