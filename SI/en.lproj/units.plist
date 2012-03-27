@@ -4,6 +4,86 @@
 <array>
 	<dict>
 		<key>power</key>
+		<integer>-1</integer>
+		<key>name</key>
+		<string>déci</string>
+		<key>symbol</key>
+		<string>d</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-2</integer>
+		<key>name</key>
+		<string>centi</string>
+		<key>symbol</key>
+		<string>c</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-3</integer>
+		<key>name</key>
+		<string>milli</string>
+		<key>symbol</key>
+		<string>m</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-6</integer>
+		<key>name</key>
+		<string>micro</string>
+		<key>symbol</key>
+		<string>µ</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-9</integer>
+		<key>name</key>
+		<string>nano</string>
+		<key>symbol</key>
+		<string>n</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-12</integer>
+		<key>name</key>
+		<string>pico</string>
+		<key>symbol</key>
+		<string>p</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-15</integer>
+		<key>name</key>
+		<string>femto</string>
+		<key>symbol</key>
+		<string>f</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-18</integer>
+		<key>name</key>
+		<string>atto</string>
+		<key>symbol</key>
+		<string>a</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-21</integer>
+		<key>name</key>
+		<string>zepto</string>
+		<key>symbol</key>
+		<string>z</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>-24</integer>
+		<key>name</key>
+		<string>yocto</string>
+		<key>symbol</key>
+		<string>y</string>
+	</dict>
+	<dict>
+		<key>power</key>
 		<integer>1</integer>
 		<key>name</key>
 		<string>déca</string>
@@ -30,7 +110,7 @@
 		<key>power</key>
 		<integer>6</integer>
 		<key>name</key>
-		<string>mega</string>
+		<string>méga</string>
 		<key>symbol</key>
 		<string>M</string>
 	</dict>
@@ -41,6 +121,46 @@
 		<string>giga</string>
 		<key>symbol</key>
 		<string>G</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>téra</string>
+		<key>symbol</key>
+		<string>T</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>15</integer>
+		<key>name</key>
+		<string>péta</string>
+		<key>symbol</key>
+		<string>P</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>18</integer>
+		<key>name</key>
+		<string>exa</string>
+		<key>symbol</key>
+		<string>E</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>21</integer>
+		<key>name</key>
+		<string>zetta</string>
+		<key>symbol</key>
+		<string>Z</string>
+	</dict>
+	<dict>
+		<key>power</key>
+		<integer>24</integer>
+		<key>name</key>
+		<string>yotta</string>
+		<key>symbol</key>
+		<string>Y</string>
 	</dict>
 </array>
 </plist>
