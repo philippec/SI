@@ -8,6 +8,10 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+@class SIUnit;
+
 @interface SITests : SenTestCase
+
+@property (retain, nonatomic) SIUnit *units;
 
 @end

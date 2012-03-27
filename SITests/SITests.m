@@ -7,26 +7,29 @@
 //
 
 #import "SITests.h"
+#import "SIUnit.h"
 
 @implementation SITests
+
+@synthesize units = _units;
 
 - (void)setUp
 {
     [super setUp];
     
-    // Set-up code here.
+    self.units = [[SIUnit alloc] init];
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
+    self.units = nil;
     
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testUnits
 {
-    STFail(@"Unit tests are not implemented yet in SITests");
+    STAssertNotNil(self.units, @"unable to create units");
 }
 
 @end
